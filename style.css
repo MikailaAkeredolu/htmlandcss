@@ -74,24 +74,117 @@ h1{
 h1 a{
     float: left;
     text-transform: uppercase;
-    color: #fff;
+    /* color: orange; */
     text-decoration: none;
+}
+
+h2{
+    /* color: orange; */
+    font-size: 26px;
+    font-family: "Playwrite CL", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 a, h2, #when {
+    color: orange;
+}
+
+h5{
+    margin: 20px 0 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
 }
 
 #when{
     float: right;
     margin: -25px 0 22px 0;
+    /* color: orange; */
 }
+
+
 
 nav{
     clear: both;
 }
 
-
-/* .primary-nav a{
+.primary-nav {
+  
     text-decoration: none;
-    color:pink;
-} */
+    background: linear-gradient(#49708f, #293f50);
+    padding: 12px 20px;
+    text-align: center;
+}
+
+
+.primary-nav a{
+    text-decoration: none;
+    color:white;
+}
+
+.primary-nav li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.primary-nav a:hover{
+    color: orange;
+}
+
+.hero{
+    text-align: center;
+    padding: 22px 80px 36px 80px;
+    line-height: 44px;
+    background-image: url('/images/speaker.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .flex-container div img {
+    max-width: 100%;
+    padding: 5px;
+  }
+
+#terms{
+  margin-top: 60px;
+}
+
+hr{
+    margin: 40px 0 20px 0;
+}
+
+.secondary-nav{
+    float: right;
+}
+
+
+.secondary-nav ul li{
+    display: inline-block;
+}
+
+
+.secondary-nav ul li a{
+    color: orange;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
 
 
 
